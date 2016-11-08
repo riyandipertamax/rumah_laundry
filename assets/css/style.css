@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+.font1{
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.font-white{
+    color: #ffffff;
+}
+
+.font_size1{
+font-size: 60px;
+line-height: 60px;
+font-weight: 600;
+margin-bottom: 38px;
+}
+
+.button {
+    color: white;
+    background: #10bbf1;
+    height: 58px;
+    border: 2px solid #10bbf1;
+    font: 500 22px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 21px;
+    -moz-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+    -ms-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+    -o-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+    -webkit-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+    transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background: #40c9f4;
+    border-color: #40c9f4;
+}
+
+.button:active {
+    background: #0b97c3;
+    border-color: #0b97c3;
+}
+
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 54px;
+    color: white;
+}
+
+a.button:hover {
+    color: white
+}
+
+a.button:active {
+    color: white
+}
+
+a.button.button-stripe {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: white;
+}
+
+a.button.button-stripe:hover {
+    color: #222222;
+    background-color: white;
+    border-color: white;
+}
+
+a.button.button-stripe:active {
+    color: #222222;
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+}
+
